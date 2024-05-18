@@ -1,225 +1,224 @@
 {
-    "products": [
+  "products": [
       {
-        "id": "P001",
-        "name": "Smartphone X1",
-        "category": "Mobile Phones",
-        "price": 699.99,
-        "stock": 50,
-        "inventory": 50,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandX",
-          "model": "X1",
-          "warranty": "2 years",
-          "features": [
-            "6.1-inch display",
-            "64GB storage",
-            "12MP camera"
-          ]
-        }
+          "id": "P001",
+          "name": "Smartphone X1",
+          "category": "Mobile Phones",
+          "price": 700,
+          "stock": 50,
+          "inventory": 50,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandX",
+              "model": "X1",
+              "warranty": "2 years",
+              "features": [
+                  "6.1-inch display",
+                  "64GB storage",
+                  "12MP camera"
+              ]
+          }
       },
       {
-        "id": "P002",
-        "name": "Pro Laptop 15",
-        "category": "Computers",
-        "price": 1299.99,
-        "stock": 25,
-        "inventory": 25,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandPro",
-          "model": "Pro 15",
-          "warranty": "1 year",
-          "features": [
-            "15.6-inch display",
-            "256GB SSD",
-            "8GB RAM"
-          ]
-        }
+          "id": "P002",
+          "name": "Pro Laptop 15",
+          "category": "Computers",
+          "price": 1300,
+          "stock": 25,
+          "inventory": 25,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandPro",
+              "model": "Pro 15",
+              "warranty": "1 year",
+              "features": [
+                  "15.6-inch display",
+                  "256GB SSD",
+                  "8GB RAM"
+              ]
+          }
       },
       {
-        "id": "P003",
-        "name": "Wireless Headphones Y2",
-        "category": "Audio",
-        "price": 199.99,
-        "stock": 100,
-        "inventory": 100,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandY",
-          "model": "Y2",
-          "warranty": "1 year",
-          "features": [
-            "Noise cancellation",
-            "Bluetooth 5.0",
-            "20-hour battery life"
-          ]
-        }
+          "id": "P003",
+          "name": "Wireless Headphones Y2",
+          "category": "Audio",
+          "price": 200,
+          "stock": 100,
+          "inventory": 100,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandY",
+              "model": "Y2",
+              "warranty": "1 year",
+              "features": [
+                  "Noise cancellation",
+                  "Bluetooth 5.0",
+                  "20-hour battery life"
+              ]
+          }
       },
       {
-        "id": "P004",
-        "name": "Smartwatch Z3",
-        "category": "Wearables",
-        "price": 249.99,
-        "stock": 75,
-        "inventory": 75,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandZ",
-          "model": "Z3",
-          "warranty": "2 years",
-          "features": [
-            "Heart rate monitor",
-            "GPS",
-            "7-day battery life"
-          ]
-        }
+          "id": "P004",
+          "name": "Smartwatch Z3",
+          "category": "Wearables",
+          "price": 250,
+          "stock": 75,
+          "inventory": 75,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandZ",
+              "model": "Z3",
+              "warranty": "2 years",
+              "features": [
+                  "Heart rate monitor",
+                  "GPS",
+                  "7-day battery life"
+              ]
+          }
       },
       {
-        "id": "P005",
-        "name": "4K TV Ultra HD 55\"",
-        "category": "Television",
-        "price": 899.99,
-        "stock": 40,
-        "inventory": 40,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandTV",
-          "model": "Ultra HD 55",
-          "warranty": "3 years",
-          "features": [
-            "55-inch display",
-            "4K resolution",
-            "Smart TV"
-          ]
-        }
+          "id": "P005",
+          "name": "4K TV Ultra HD 55\"",
+          "category": "Television",
+          "price": 900,
+          "stock": 40,
+          "inventory": 40,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandTV",
+              "model": "Ultra HD 55",
+              "warranty": "3 years",
+              "features": [
+                  "55-inch display",
+                  "4K resolution",
+                  "Smart TV"
+              ]
+          }
       },
       {
-        "id": "P006",
-        "name": "Bluetooth Speaker S2",
-        "category": "Audio",
-        "price": 49.99,
-        "stock": 200,
-        "inventory": 200,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandS",
-          "model": "S2",
-          "warranty": "1 year",
-          "features": [
-            "Water-resistant",
-            "10-hour battery life",
-            "Bluetooth 5.0"
-          ]
-        }
+          "id": "P006",
+          "name": "Bluetooth Speaker S2",
+          "category": "Audio",
+          "price": 50,
+          "stock": 200,
+          "inventory": 200,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandS",
+              "model": "S2",
+              "warranty": "1 year",
+              "features": [
+                  "Water-resistant",
+                  "10-hour battery life",
+                  "Bluetooth 5.0"
+              ]
+          }
       },
       {
-        "id": "P007",
-        "name": "Gaming Console GX",
-        "category": "Gaming",
-        "price": 499.99,
-        "stock": 30,
-        "inventory": 30,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandG",
-          "model": "GX",
-          "warranty": "2 years",
-          "features": [
-            "4K gaming",
-            "1TB storage",
-            "VR support"
-          ]
-        }
+          "id": "P007",
+          "name": "Gaming Console GX",
+          "category": "Gaming",
+          "price": 500,
+          "stock": 30,
+          "inventory": 30,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandG",
+              "model": "GX",
+              "warranty": "2 years",
+              "features": [
+                  "4K gaming",
+                  "1TB storage",
+                  "VR support"
+              ]
+          }
       },
       {
-        "id": "P008",
-        "name": "Tablet T10",
-        "category": "Tablets",
-        "price": 299.99,
-        "stock": 60,
-        "inventory": 60,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandT",
-          "model": "T10",
-          "warranty": "1 year",
-          "features": [
-            "10.1-inch display",
-            "128GB storage",
-            "8MP camera"
-          ]
-        }
+          "id": "P008",
+          "name": "Tablet T10",
+          "category": "Tablets",
+          "price": 300,
+          "stock": 60,
+          "inventory": 60,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandT",
+              "model": "T10",
+              "warranty": "1 year",
+              "features": [
+                  "10.1-inch display",
+                  "128GB storage",
+                  "8MP camera"
+              ]
+          }
       },
       {
-        "id": "P009",
-        "name": "Digital Camera C5",
-        "category": "Cameras",
-        "price": 549.99,
-        "stock": 20,
-        "inventory": 20,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandC",
-          "model": "C5",
-          "warranty": "1 year",
-          "features": [
-            "24MP sensor",
-            "4K video recording",
-            "Wi-Fi connectivity"
-          ]
-        }
+          "id": "P009",
+          "name": "Digital Camera C5",
+          "category": "Cameras",
+          "price": 550,
+          "stock": 20,
+          "inventory": 20,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandC",
+              "model": "C5",
+              "warranty": "1 year",
+              "features": [
+                  "24MP sensor",
+                  "4K video recording",
+                  "Wi-Fi connectivity"
+              ]
+          }
       },
       {
-        "id": "P010",
-        "name": "Smart Home Hub H1",
-        "category": "Smart Home",
-        "price": 129.99,
-        "stock": 80,
-        "inventory": 80,
-        "deliveryDates": {
-          "standardShipping": "3-5 business days",
-          "expressShipping": "1-2 business days"
-        },
-        "extraInfo": {
-          "brand": "BrandH",
-          "model": "H1",
-          "warranty": "1 year",
-          "features": [
-            "Voice control",
-            "Compatible with multiple devices",
-            "Automated routines"
-          ]
-        }
+          "id": "P010",
+          "name": "Smart Home Hub H1",
+          "category": "Smart Home",
+          "price": 130,
+          "stock": 80,
+          "inventory": 80,
+          "deliveryDates": {
+              "standardShipping": "3-5 business days",
+              "expressShipping": "1-2 business days"
+          },
+          "extraInfo": {
+              "brand": "BrandH",
+              "model": "H1",
+              "warranty": "1 year",
+              "features": [
+                  "Voice control",
+                  "Compatible with multiple devices",
+                  "Automated routines"
+              ]
+          }
       }
-    ]
-  }
-  
+  ]
+}

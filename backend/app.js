@@ -5,9 +5,11 @@ const express = require('express');
 const cors = require('cors');
 const app = express();
 
+require('dotenv').config();
+
 const jsonData = require('./data.json');
 
-const openaiToken = ''
+const openaiToken = process.env.api_key
 
 app.use(express.json());
 app.use(cors());
@@ -24,9 +26,8 @@ const message = req.body.emailContent
     const gptResponse = await axios.post('https://api.openai.com/v1/chat/completions', {
       model: "gpt-3.5-turbo",
       messages: [
-        
+        { role: 'system', content: `1.you the seller, have this producs: ${jsonData.products},  answer to the email with aviability gitving the price of each product requested and totals of all requested products, important, always return the total from all requested products, don't care about my name, also give the deliveryDates information and warranty  `  },
         { role: 'user', content: `The client write: ${message}` },
-        { role: 'system', content: `1.You are a customer service representative,and you have this producs: ${jsonData.products},  answer to the prev email with aviability and totals`  }
       ],
       max_tokens: 150
     }, {

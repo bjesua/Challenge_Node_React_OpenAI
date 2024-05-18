@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Form, Container, Table } from 'react-bootstrap';
+import logo1 from '../logo_robot.PNG'
 
 const RFQForm = () => {
   const [emailContent, setEmailContent] = useState('');
@@ -7,6 +8,21 @@ const RFQForm = () => {
   const [result,setResutl] = useState('')
   
   const date = new Date().toISOString().slice(0, 10);
+
+  const jsonData = {
+    "products": [
+      { "id": "P001", "name": "Smartphone X1" },
+      { "id": "P002", "name": "Pro Laptop 15" },
+      { "id": "P003", "name": "Wireless Headphones Y2" },
+      { "id": "P004", "name": "Smartwatch Z3" },
+      { "id": "P005", "name": "4K TV Ultra HD 55\"" },
+      { "id": "P006", "name": "Bluetooth Speaker S2" },
+      { "id": "P007", "name": "Gaming Console GX" },
+      { "id": "P008", "name": "Tablet T10" },
+      { "id": "P009", "name": "Digital Camera C5" },
+      { "id": "P010", "name": "Smart Home Hub H1" }
+    ]
+  };
 
   const handleSubmit = async (event) => {
     event.preventDefault();
@@ -26,7 +42,15 @@ const RFQForm = () => {
 
   return (
     <Container>
+      <img src={logo1} className="App-logo" alt="logo" style={{ width: '5%', margin: 'auto', display: 'block' }} />
+
       <h1 className='text-center'>Request For Quote</h1>
+      <h3>List of products</h3>
+      <ul>
+        {jsonData.products.map(product => (
+          <li key={product.id}>{product.name}</li>
+        ))}
+      </ul>
       <Form onSubmit={handleSubmit}>
         <Form.Group controlId="emailContent">
           <Form.Label>Please write your email</Form.Label>
